@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="DomeTest" time="1.994" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\code\parent\child1"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\code\parent\child1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\code\parent\child1\target\surefire\surefirebooter7460557115954437198.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\WUYUNT~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="net.sourceforge.cobertura.datafile" value="target/cobertura/cobertura.ser"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;E:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\wuyuntian\AppData\Local\Microsoft\WindowsApps;C:\Users\wuyuntian\AppData\Local\Programs\Fiddler;C:\Users\wuyuntian\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="surefire.test.class.path" value="E:\code\parent\child1\target\test-classes;E:\code\parent\child1\target\classes;E:\repository\junit\junit\4.12\junit-4.12.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\springframework\spring-core\4.1.4.RELEASE\spring-core-4.1.4.RELEASE.jar;E:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\repository\org\springframework\spring-beans\4.1.4.RELEASE\spring-beans-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-context\4.1.4.RELEASE\spring-context-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-aop\4.1.4.RELEASE\spring-aop-4.1.4.RELEASE.jar;E:\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\repository\org\springframework\spring-expression\4.1.4.RELEASE\spring-expression-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-tx\4.1.4.RELEASE\spring-tx-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-web\4.1.4.RELEASE\spring-web-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-webmvc\4.1.4.RELEASE\spring-webmvc-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-jdbc\4.1.4.RELEASE\spring-jdbc-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-test\4.1.4.RELEASE\spring-test-4.1.4.RELEASE.jar;E:\repository\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;E:\repository\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;E:\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;E:\repository\com\alibaba\druid\1.0.12\druid-1.0.12.jar;C:\Program Files\Java\jdk1.8.0_181\jre\..\lib\jconsole.jar;C:\Program Files\Java\jdk1.8.0_181\jre\..\lib\tools.jar;E:\repository\org\aspectj\aspectjweaver\1.8.4\aspectjweaver-1.8.4.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;E:\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;E:\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;E:\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;E:\repository\com\alibaba\fastjson\1.2.3\fastjson-1.2.3.jar;E:\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\repository\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar;E:\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;E:\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;E:\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;E:\repository\com\mangofactory\swagger-springmvc\1.0.2\swagger-springmvc-1.0.2.jar;E:\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;E:\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;E:\repository\com\mangofactory\swagger-models\1.0.2\swagger-models-1.0.2.jar;E:\repository\com\wordnik\swagger-annotations\1.3.11\swagger-annotations-1.3.11.jar;E:\repository\com\google\guava\guava\15.0\guava-15.0.jar;E:\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.1\jackson-annotations-2.5.1.jar;E:\repository\com\fasterxml\jackson\core\jackson-databind\2.5.1\jackson-databind-2.5.1.jar;E:\repository\com\fasterxml\jackson\core\jackson-core\2.5.1\jackson-core-2.5.1.jar;E:\repository\com\fasterxml\classmate\1.1.0\classmate-1.1.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\wuyuntian"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="wuyuntian"/>
+    <property name="java.class.path" value="E:\code\parent\child1\target\test-classes;E:\code\parent\child1\target\classes;E:\repository\junit\junit\4.12\junit-4.12.jar;E:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\repository\org\springframework\spring-core\4.1.4.RELEASE\spring-core-4.1.4.RELEASE.jar;E:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\repository\org\springframework\spring-beans\4.1.4.RELEASE\spring-beans-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-context\4.1.4.RELEASE\spring-context-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-aop\4.1.4.RELEASE\spring-aop-4.1.4.RELEASE.jar;E:\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\repository\org\springframework\spring-expression\4.1.4.RELEASE\spring-expression-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-tx\4.1.4.RELEASE\spring-tx-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-web\4.1.4.RELEASE\spring-web-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-webmvc\4.1.4.RELEASE\spring-webmvc-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-jdbc\4.1.4.RELEASE\spring-jdbc-4.1.4.RELEASE.jar;E:\repository\org\springframework\spring-test\4.1.4.RELEASE\spring-test-4.1.4.RELEASE.jar;E:\repository\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;E:\repository\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;E:\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;E:\repository\com\alibaba\druid\1.0.12\druid-1.0.12.jar;C:\Program Files\Java\jdk1.8.0_181\jre\..\lib\jconsole.jar;C:\Program Files\Java\jdk1.8.0_181\jre\..\lib\tools.jar;E:\repository\org\aspectj\aspectjweaver\1.8.4\aspectjweaver-1.8.4.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;E:\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;E:\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;E:\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;E:\repository\com\alibaba\fastjson\1.2.3\fastjson-1.2.3.jar;E:\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;E:\repository\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar;E:\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;E:\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;E:\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;E:\repository\com\mangofactory\swagger-springmvc\1.0.2\swagger-springmvc-1.0.2.jar;E:\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;E:\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;E:\repository\com\mangofactory\swagger-models\1.0.2\swagger-models-1.0.2.jar;E:\repository\com\wordnik\swagger-annotations\1.3.11\swagger-annotations-1.3.11.jar;E:\repository\com\google\guava\guava\15.0\guava-15.0.jar;E:\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.1\jackson-annotations-2.5.1.jar;E:\repository\com\fasterxml\jackson\core\jackson-databind\2.5.1\jackson-databind-2.5.1.jar;E:\repository\com\fasterxml\jackson\core\jackson-core\2.5.1\jackson-core-2.5.1.jar;E:\repository\com\fasterxml\classmate\1.1.0\classmate-1.1.0.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="E:\code\parent\child1\target\surefire\surefirebooter7460557115954437198.jar E:\code\parent\child1\target\surefire\surefire947423965239629333tmp E:\code\parent\child1\target\surefire\surefire781767421651532144tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="E:\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="DomeTest" name="SelectAllTest" time="0.474"/>
+  <testcase classname="DomeTest" name="InsertDomeTest" time="0.016"/>
+</testsuite>
